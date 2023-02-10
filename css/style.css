@@ -1,0 +1,170 @@
+/* Common CSS Start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+span{
+    display: inline-block;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Common CSS End */
+
+body{
+    background-color: #FFF8F3;
+}
+.team_main{
+    display: flex;
+    justify-content: space-between;
+}
+.team_item{
+    margin-top: 50px;
+    background-color: rgba(253, 111, 10, 0.1);
+    padding: 20px;
+    width: 48%;
+}
+.team_head{
+    text-align: center;
+}
+.team_head h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+.team_head h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #FD6E0A;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+.team_head h2:hover::after{
+    transform: scaleX(1);
+}
+.team_head h2:hover{
+    color: #FD6E0A;
+}
+
+
+.team_body_main{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.serial_no{
+    width: 16%;
+    text-align: center;
+}
+.serial_no h2{
+    padding: 10px;
+    background-color: red;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.serial_no ul{
+    margin-top: 20px;
+}
+.serial_no ul li{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+.name{
+    width: 64%;
+}
+.name h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #FD6E0A;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.name ul{
+    margin-top: 20px;
+}
+.name ul li{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.name ul li span{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+
+.penalty{
+    width: 20%;
+    text-align: center;
+}
+.penalty h2{
+    padding: 10px;
+    background-color: red;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.penalty ul{
+    margin-top: 20px;
+}
+.penalty ul li{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.total{
+    text-align: center;
+    padding-top: 30px;
+}
+.total h3{
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.green{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 10px;
+}
